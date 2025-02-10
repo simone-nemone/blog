@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A light-hearted minimalist blog featuring art, photography, and everyday musings.">
+    <title>Your Name's Blog</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0;
+            font-style: italic;
+        }
+        nav {
+            background-color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-top: 1px solid #eee;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #666;
+        }
+        nav a:hover {
+            color: #000;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .blog-posts {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .blog-post {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .blog-post h2 {
+            font-size: 1.8em;
+            margin-top: 0;
+        }
+        .blog-post p {
+            font-size: 1.1em;
+            color: #555;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+            color: #777;
+        }
+        footer a {
+            color: #666;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Your Name's Blog</h1>
+    <p>Sharing everyday thoughts, art, and photography</p>
+</header>
+
+<nav>
+    <a href="#blog">Blog</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#about">About</a>
+</nav>
+
+<div class="container">
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog-posts">
+            <!-- Blog Post 1 -->
+            <div class="blog-post">
+                <h2>My First Post</h2>
+                <p><strong>January 1, 2025</strong></p>
+                <p>This is where you write about your first blog post. Share a fun story or an insight into your daily life!</p>
+                <a href="#">Read more...</a>
+            </div>
+            <!-- Blog Post 2 -->
+            <div class="blog-post">
+                <h2>Exploring My Favorite Hobby</h2>
+                <p><strong>February 5, 2025</strong></p>
+                <p>Here's a blog post about your favorite hobby. Write about why you love it and what you get out of it.</p>
+                <a href="#">Read more...</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300" alt="Artwork 1">
+            <img src="https://via.placeholder.com/300" alt="Artwork 2">
+            <img src="https://via.placeholder.com/300" alt="Artwork 3">
+            <img src="https://via.placeholder.com/300" alt="Artwork 4">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Your Name, a passionate blogger who loves sharing my thoughts, artwork, and photography. I started this blog to connect with others and document the small moments that make life interesting.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Your Name | <a href="#">Contact</a></p>
+</footer>
+
+</body>
+</html>
